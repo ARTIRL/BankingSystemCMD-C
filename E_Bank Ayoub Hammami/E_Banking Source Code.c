@@ -11,8 +11,8 @@ typedef struct {
 
 typedef struct {
     int cin;    // 8 digits ID
-    char name[18];
-    char family_name[18];
+    char name[12];
+    char family_name[12];
     float balance;
 } client;
 
