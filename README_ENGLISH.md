@@ -5,6 +5,18 @@ Welcome to the E_Bank System, a command-line banking application written in C. T
 
 ## Features
 
+- **Linked Lists:** The program utilizes linked lists to manage client data. Linked lists, implemented in the form of stacks, were chosen over arrays for better memory performance and dynamic data handling.
+
+- **File Management:** Client information and transaction data are stored in separate text files (`Clients E_bank.txt` and `transactions.txt`). This approach allows for persistent storage, easy data retrieval, and modification.
+
+- **Data Loading:** At the beginning of the program, client information is loaded from the file into a linked list. This process ensures data consistency and provides a foundation for efficient data manipulation.
+
+- **Enhanced User Experience:** The code accommodates a range of input exceptions, making the program more robust and user-friendly. The user interface is structured to provide a comprehensive set of options for both clients and administrators.
+
+- **Stack:** The program uses linked lists under the form of stacks.
+
+- **Testing Functions:** The program provides functions to test out the efficiancy of modifiying,updating,deleting and creating new data.
+  
 ### Simple Interface
 
 - Modify client information
