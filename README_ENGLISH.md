@@ -108,6 +108,24 @@ For security reasons, the application is designed with a clear separation betwee
 * For more information about how each function works and the algorithms it use, take a look at the source code.
 
 ```c
+// Structures
+typedef struct {
+    int jour;
+    int mois;
+    int annee;
+} date;
+
+typedef struct {
+    int cin;    // 8 digits ID
+    char name[18];
+    char family_name[18];
+    float balance;
+} client;
+
+typedef struct node {
+    client data;
+    struct node* suiveur;
+} node;
 // Function to write the current date for valid transaction dates
 date ecrire_date();
 
