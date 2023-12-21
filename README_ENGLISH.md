@@ -142,15 +142,14 @@ int obtenir_saisie_valide(const char *invite);
 ``` 
 
 
-## Contributing
+## About the Author
 
-Feel free to contribute to the project by submitting bug reports, feature requests, or code improvements.
+This project was undertaken by Ayoub Hammami,1st year student at National School of Computer Science, as part of a class assignment in development. I am open to comments, suggestions for improvement, bug reports, and contributions from the community.
 
-## Credits
+Feel free to open issues to discuss new features, report problems, or simply share your ideas. Contributions in the form of pull requests are also welcome.
 
-Developped by: Ayoub Hammami
-                        -1st year student at "National School of Computer Science".
+## Contact
 
-## License
-
-This project is licensed under the [MIT License](LICENSE)
+- Name: Ayoub Hammami
+- Email: issaayoubyoru@gmail.com
+- LinkedIn: https://linkedin.com/in/ayoub-hammami
