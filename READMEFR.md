@@ -2,6 +2,26 @@
 
 Bienvenue dans le système E_Bank, une application bancaire en ligne de commande écrite en C. Ce système offre à la fois une interface simple et une interface complète pour gérer les clients et les transactions. Créé par Ayoub Hammami dans le cadre d'un projet de classe de développement.
 
+## Aperçu Concis sur les Structures de Données Utilisées et les Fonctionnalités Fournies :
+
+- **Listes Chaînées :** Le programme utilise des listes chaînées pour gérer les données des clients. Les listes chaînées, implémentées sous la forme de piles, ont été choisies plutôt que les tableaux pour une meilleure performance mémoire et une manipulation dynamique des données.
+
+- **Gestion des Fichiers :** Les informations sur les clients et les transactions sont stockées dans des fichiers texte distincts (`Clients E_bank.txt` et `transactions.txt`). Cette approche permet un stockage persistant, une récupération facile des données et une modification aisée.
+
+- **Chargement des Données :** Au début du programme, les informations sur les clients sont chargées depuis le fichier dans une liste chaînée. Ce processus garantit la cohérence des données et fournit une base pour une manipulation efficace des données.
+
+- **Expérience Utilisateur Améliorée :** Le code gère diverses exceptions d'entrée, rendant le programme plus robuste et convivial. L'interface utilisateur est structurée pour offrir un ensemble complet d'options pour les clients et les administrateurs.
+
+- **Piles :** Le programme utilise des listes chaînées sous la forme de piles.
+
+- **Fonctions de Test :** Le programme propose des fonctions pour tester l'efficacité de la modification, de la mise à jour, de la suppression et de la création de données.
+
+- **Nettoyage Continu du Tampon d'Entrée :** Le programme effectue un nettoyage continu du tampon d'entrée pour éviter les comportements indéfinis pendant l'exécution.
+
+- **Interface de Test et Interface Complète :** Le programme propose deux types d'interfaces : une interface simple où l'utilisateur peut tester toutes les fonctions du programme, et une interface complète qui imite la disposition des applications du monde réel (côté client et côté administrateur).
+
+- **Messages d'Erreur :** Le programme propose divers messages d'erreur informatifs en cas de comportement inattendu.
+
 ## Fonctionnalités
 
 ### Interface Simple
