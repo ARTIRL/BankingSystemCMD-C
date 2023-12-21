@@ -69,6 +69,7 @@ int nombre_elements(node* head);// Une fonction utilisé pour verifier si le cli
 int is_valid_date(int jour, int mois, int annee);// Une fonction qui est utilisé pour saisir une date valide
 
 int obtenir_saisie_valide(const char *invite);// Une fonction qui est utilisé pour saisir une date valide
+void interface_classique(node** head,date x);// Une fonction pour l'affichage simple
 
 
 
@@ -796,8 +797,6 @@ int main() {
     node* head;
     head = NULL;
     load_clients(&head);
-    int u = nombre_elements(head);
-    printf("%d",u);
     date x = ecrire_date();
     clear_screen();
     printf("Voulez vous utiliser la version simple du programme ou la version complete?\n");
