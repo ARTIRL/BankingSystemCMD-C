@@ -53,6 +53,7 @@ For security reasons, the application is designed with a clear separation betwee
 2. Open the project in your preferred C compiler or code editor (e.g., Visual Studio Code).
 3. Compile and run the `E_banking Source Code` file or run the executable code directly.
 4. Dont forget to download the whole file on your computer so while running the program it updates the files clients and transactions.
+5. The transactions file, E_clients file ,the executable code and the source code should all be on the same folder to work correctly.
 
 ## Usage
 
