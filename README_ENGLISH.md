@@ -117,8 +117,8 @@ typedef struct {
 
 typedef struct {
     int cin;    // 8 digits ID
-    char name[18];
-    char family_name[18];
+    char name[12];
+    char family_name[12];
     float balance;
 } client;
 
@@ -197,6 +197,8 @@ int is_valid_date(int jour, int mois, int annee);
 
 // Function to obtain valid user input for a date
 int obtenir_saisie_valide(const char *invite);
+// Function for the testing/simple interface
+void interface_classique(node** head,date x);
 ``` 
 
 
